@@ -1,0 +1,59 @@
+
+@media only screen and (max-width:  1264px) {
+    .nav-list{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 400px ;
+        position:static;
+    }
+    .logo{
+        width: 26%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width:100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height:70px;
+    }
+    .v-class-resp{
+        visibility: hidden;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .section{
+        flex-direction: column;
+        border-bottom: 1px solid #bdbdbd;
+        padding-bottom: 25px;
+   
+        
+    }
+    .text-big,.sectionTag{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .text-small{
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0;
+    }
+    
+}
